@@ -1,0 +1,9 @@
+@import './forcss/reset.css';
+@import './forcss/header.css';
+@import './forcss/footer.css';
+@import './forcss/section/section_intro.css';
+@import './forcss/fonts.css';
+@import './forcss/section/section_pic_about.css';
+@import './forcss/section/section_fetured_items.css';
+@import './forcss/section/section_info_black.css';
+@import './forcss/section/section_feedback.css';
