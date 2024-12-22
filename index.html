@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <title>Document</title>
+    <title>Main page</title>
 </head>
 <body>
     <div class="header">
         <div class="logo_conteiner">
-            <a href="#">
+            <a href="./index.html">
                 <img src="./img/Logo_1.svg" alt="Logo">
             </a>
             <a href="#" id="logo_second">
@@ -17,13 +17,13 @@
             </a>
         </div>
         <div class="conteiner_header_element">
-            <a href="#">
+            <a href="#" id="burger_open_element">
                 <img src="./img/Logo_element_1.svg" alt="element1">
             </a>
-            <a href="#">
+            <a href="./catalog.html">
                 <img src="./img/Logo_element_2.svg" alt="element2">
             </a>
-            <a href="#">
+            <a href="./cart.html">
                 <img src="./img/Logo_element_3.svg" alt="element3">
             </a>
         </div>
@@ -40,22 +40,56 @@
                 <span class="intro_text_second">FASHION</span>
             </h1>
         </div>
+        <div class="burger">
+            <img src="./img/krestik.svg" alt="">
+            <p>MENU</p>
+            <ul class="burger_item">
+                <li class="burger_item_element">MAN</li>
+                <ul class="burger_item_elements">
+                    <li>Accessories</li>
+                    <li>Bags</li>
+                    <li>Denim</li>
+                    <li>T-Shirts</li>
+                </ul>
+            </ul>
+            <ul class="burger_item">
+                <li class="burger_item_element">WOMAN</li>
+                <ul class="burger_item_elements">
+                    <li>Accessories</li>
+                    <li>Jackets & Coats</li>
+                    <li>Polos</li>
+                    <li>T-Shirts</li>
+                    <li>Shirts</li>
+                </ul>
+            </ul>
+            <ul class="burger_item">
+                <li class="burger_item_element">KIDS</li>
+                <ul class="burger_item_elements">
+                    <li>Accessories</li>
+                    <li>Jackets & Coats</li>
+                    <li>Polos</li>
+                    <li>T-Shirts</li>
+                    <li>Shirts</li>
+                    <li>Bags</li>
+                </ul>
+            </ul>
+        </div> 
     </section>
     <section class="pic_about">
         <div class="conteiner_pic_about">
-            <p class="conteiner_pic_text">
+            <p class="conteiner_pic_text one">
                 <span class="conteiner_pic-one">30% OFF</span>
                 <span class="conteiner_pic-two">FOR WOMEN</span>
             </p>
         </div>
         <div class="conteiner_pic_about">
-            <p class="conteiner_pic_text">
+            <p class="conteiner_pic_text two">
                 <span class="conteiner_pic-one">HOT DEAL</span>
                 <span class="conteiner_pic-two"> FOR MEN</span>
             </p>           
         </div>
         <div class="conteiner_pic_about">
-            <p class="conteiner_pic_text">
+            <p class="conteiner_pic_text tree">
                 <span class="conteiner_pic-one">NEW ARRIVALS</span>
                 <span class="conteiner_pic-two">FOR KIDS</span>
             </p>
@@ -243,5 +277,6 @@
             </button>
         </div>
     </footer>
+    <script type="module" src="./js/script.js"></script>
 </body>
 </html>
